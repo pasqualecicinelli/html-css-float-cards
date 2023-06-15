@@ -4,7 +4,7 @@
 }
 
 .conteiner {
-    width: 60%;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -24,7 +24,7 @@ h1,p {
 }
 
 .card {
-    width: 30%;
+    width:calc(100% / 3 - 30px);
     background-color: black;
     margin: 20px 15px;
 }
