@@ -2,3 +2,44 @@
 box-sizing: border-box;
 margin: 0;
 }
+.conteiner{
+    width: 60%;
+    margin: auto;
+}
+h1{
+    color:#E53170;
+}
+h1, p{
+    text-align: center;
+    margin: 50px 0;
+}
+.clearfix ::after{
+    content:'' ;
+    display: block;
+    clear: both;
+}
+.card{
+    width: 30%;
+    background-color: black;
+    margin: 20px 10px;
+}
+img{
+    width: 30%;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float: right;
+}
+.text{
+    color:white;
+    padding: 12px 60px 0 0;
+}
+a{
+    text-decoration: none;
+    color: #3BC6F5;
+}
+h4, .type-work{
+    margin:7px 0;
+}
