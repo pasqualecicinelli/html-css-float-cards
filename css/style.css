@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 body{
     font-family: 'Lilita One', cursive;
     font-family: 'Lora', serif;
@@ -22,7 +23,7 @@ h1 {
     font-weight: bold;
 }
 
-h1,p {
+h1, p {
     text-align: center;
     margin: 50px 0;
 }
@@ -43,7 +44,7 @@ h4{
     box-shadow: 5px 5px 5px #dedede;
 }
 
-img {
+.card > img {
     width: 30%;
 }
 
@@ -55,9 +56,11 @@ img {
     float: right;
 }
 
-.text {
+.small-content {
     color: white;
-    padding: 12px 60px 0 0;
+    width: 250px;
+    padding: 10px 0 0 15px;
+    
 }
 
 a {
@@ -65,7 +68,6 @@ a {
     color: #3BC6F5;
 }
 
-h4,
-.type-work {
-    margin: 7px 0;
+h4, .type-work {
+    margin: 10px 0;
 }
