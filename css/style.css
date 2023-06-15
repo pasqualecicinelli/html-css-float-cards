@@ -2,6 +2,14 @@
     box-sizing: border-box;
     margin: 0;
 }
+body{
+    font-family: 'Lilita One', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+
+}
 
 .conteiner {
     max-width: 1200px;
@@ -10,11 +18,16 @@
 
 h1 {
     color: #E53170;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 h1,p {
     text-align: center;
     margin: 50px 0;
+}
+h4{
+    font-weight: bold;
 }
 
 .clearfix::after {
@@ -27,6 +40,7 @@ h1,p {
     width:calc(100% / 3 - 30px);
     background-color: black;
     margin: 20px 15px;
+    box-shadow: 5px 5px 5px #dedede;
 }
 
 img {
