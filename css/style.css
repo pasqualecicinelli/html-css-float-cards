@@ -5,8 +5,8 @@
 }
 
 body{
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
 }
 
         /*Formatt element*/
@@ -19,18 +19,19 @@ body{
 h1 {
     color: #E53170;
     font-size: 3rem;
-    font-weight: bold;
 }
 h1, p {
     text-align: center;
     margin: 50px 0;
 }
-h4{
-    font-weight: bold;
+.row{
+    margin:0 -15px;
+}
+.conteiner-card{
+    width:calc(100% / 3);
 }
 
-.card {
-    width:calc(100% / 3 - 30px);
+.card { 
     height: 115px;
     background-color: black;
     margin: 20px 15px;
@@ -38,14 +39,13 @@ h4{
 }
 
 .card > img {
-    width: 31%;
+    height: 100%;
+    margin-right: 15px;
     
 }
 .small-content {
-    color: white;
-    width: 250px;
-    padding: 10px 0 0 15px;
-    
+    color: white;   
+    padding-top: 10px
 }
 
 a {
@@ -53,8 +53,9 @@ a {
     color: #3BC6F5;
 }
 
-h4, .type-work {
-    margin: 10px 0;
+h3, .type-work {
+    margin: 5px;
+   
 }
         /*Clear fix and Float */
 .clearfix::after {
@@ -65,8 +66,3 @@ h4, .type-work {
 .float-left {
     float: left;
 }
-
-.float-right {
-    float: right;
-}
-
