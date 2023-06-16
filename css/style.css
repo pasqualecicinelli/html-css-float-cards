@@ -1,16 +1,15 @@
+            /* Generic */
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
 body{
-    font-family: 'Lilita One', cursive;
-    font-family: 'Lora', serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
-
 }
+
+        /*Formatt element*/
 
 .conteiner {
     max-width: 1200px;
@@ -22,7 +21,6 @@ h1 {
     font-size: 3rem;
     font-weight: bold;
 }
-
 h1, p {
     text-align: center;
     margin: 50px 0;
@@ -31,31 +29,18 @@ h4{
     font-weight: bold;
 }
 
-.clearfix::after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 .card {
     width:calc(100% / 3 - 30px);
+    height: 115px;
     background-color: black;
     margin: 20px 15px;
     box-shadow: 5px 5px 5px #dedede;
 }
 
 .card > img {
-    width: 30%;
+    width: 31%;
+    
 }
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
 .small-content {
     color: white;
     width: 250px;
@@ -71,3 +56,17 @@ a {
 h4, .type-work {
     margin: 10px 0;
 }
+        /*Clear fix and Float */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
